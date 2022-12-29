@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear:both;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    line-height: 0.8;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+.mr{
+    margin-right: 0 !important;
+}
+/* header part start */
+#header_part{
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: 999;
+    height:60px;
+    background: white;
+}
+.header_logo{
+    width:60px;
+    float:left;
+    padding-top: 15px;
+}
+.header_menu{
+    width:900px;
+    float:left;
+    text-align: right;
+}
+.header_menu ul li{
+    display:inline-block;
+}
+.header_menu ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:black;
+    padding-left:25px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+/* header part end */
+
+/* banner part start */
+#banner_part{
+    padding-top: 276px;
+    padding-bottom: 290px;
+    background: url(../images/Strictclass-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_item{
+    text-align: center;
+    color:white;
+}
+.banner_item h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #15a4fa;
+
+}
+.banner_item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+.banner_btn a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:white;
+    padding:25px 35px;
+    border:1px solid #15a4fa;
+}
+/* banner part end */
+
+/* design part start */
+#design_part{
+    padding-top: 85px;
+    padding-bottom: 110px;
+    background: #f6f9f9;
+}
+.design_item h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color:black;
+    padding-bottom: 43px;
+}
+.design_item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    line-height: 25px;
+    padding:0 10px;
+}
+.design_item{
+    text-align: center;
+}
+/* design part end */
+
+/* service part start */
+#service_part{
+    padding-top: 30px;
+    padding-bottom: 240px;
+    background: #ffffff;
+}
+.service_items{
+    width:300px;
+    height:240px;
+    border:1px solid white;
+    text-align: center;
+    position:relative;
+    margin-right: 30px;
+    float:left;
+}
+.service_img{
+    height:100px;
+    width:100px;
+    background: url(../images/service_bgd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   padding:0 1px;
+   position:absolute;
+   top:0%;
+   left:50%;
+   transform: translateX(-50%);
+   content:"";
+   
+
+}
+.service_icon i{
+color:#f6f9f9;
+padding: 25px 30px;
+font-size: 55px;
+text-align: center;
+}
+.service_text h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	padding-top: 132px;
+	padding-bottom: 25px;
+	color: black;
+}
+.service_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    line-height: 15px;
+    
+   
+}                  
+
+/* service part end */
+
+/* image part start */
+#image_part{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background: #f6f9f9;
+}
+.image_up_part{
+    text-align: center;
+}
+.image_up_part h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color:black;
+}
+.image_up_part p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+   padding-top: 28px;
+   padding-bottom: 80px;
+}
+.image_item{
+    float:left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.overlay{
+color:rgba(21, 162, 250, 0.90);
+width:300px;
+
+}
+
+/* image part end */
+
+/* contract part start */
+#contract_part{
+    padding-top: 75px;
+    padding-bottom: 110px;
+    background: url(../images/contract.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.contract_up_part{
+    text-align: center;
+}
+.contract_up_part h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color:white;
+}
+.contract_up_part p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+   padding-top: 25px;
+   padding-bottom: 50px;
+}
+.contract_form_items{
+    background: none;
+    border:1px solid white;
+    margin: 0 auto;
+    width:555px;
+    height:65px; 
+    
+}
+
+.nameitem{
+	padding: 25px 20px;
+	background: transparent;
+	border: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+   width:100%;
+   height:100%;
+}
+.ad{
+    margin-top: 20px;
+}
+.messagearea textarea {
+	margin: 20px 201px;
+	background: transparent;
+}
+.messagearea textarea::placeholder{
+   
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+.a{
+    padding: 25px 20px;
+}
+.contract_left {
+	padding-top: 40px;
+	float: left;
+	margin: -31px 201px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #999999;
+}
+.contract_right button {
+
+	float: right;
+	border: 1px solid #15a4fa;
+	background: transparent;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #999999;
+	padding: 15px 50px;
+	margin: 0 200px;  
+}
+
+/* contract part end */
+
+/* footer part start */
+#footer_part{
+    padding-top: 35px;
+    padding-bottom: 22px;
+    background: #f6f9f9;
+}
+.footer_left h2{
+    font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #999999;
+    text-align: left;
+    float:left;
+    padding-top: 10px;
+  
+    
+}
+.footer_btns a{
+  height: 40px;
+  width:40px;
+  border:1px solid #15a4fa;
+  background: #15a4fa;
+  float:right;
+  line-height: 40px;
+margin-left: 10px;
+   
+}
+.footer_btns i {
+    padding: 13px 15px;
+    color:white;
+    
+}
+/* footer part end */
+
+/* header part start */
+/* header part end */
